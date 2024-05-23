@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Pokemon.Models.Players>
+<div>
+    <div class="tab-body cont-opacity">
+        <div>
+            <div>
+                <span style="width: 60px;display: inline-block;">Search</span>
+                <input id="search-player" type="text" name="name" value="" />
+            </div>
+            <div>
+                <span style="width: 60px;display: inline-block;">Points</span>
+                <input id="points" type="text" name="name" value="" />
+                <button id="submitPoints">Submit</button>
+            </div>            
+        </div>
+        <div>
+            <input id="all" type="checkbox" />
+            <label for="all">Select all</label>
+        </div>
+        @foreach(var item in Model)
+        {            
+            <div>
+                <input id="@item.playerID" type="checkbox"  class="inputCheck"/>
+                <label for="@item.playerID" class="playerName">@item.fullName</label>
+            </div>
+        } 
+    </div>
+</div>

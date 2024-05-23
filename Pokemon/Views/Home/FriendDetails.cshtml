@@ -1,0 +1,55 @@
+﻿@model Pokemon.Models.DataPlayers
+<div id="view-frndDtls" class="d-flex" data-view="frndDtls" data-player="@Model.playerID">
+    <div class="width-20 d-flex flx-col">
+        <div class="width-100 just-center">
+            <button class="back btn-trade" data-type="0" data-show="vw-plyrs" data-hide="view-frndDtls"></button>
+            <img class="width-80 circle" src="@Model.Image" alt="Alternate Text" />
+        </div>
+        <div class="width-100 align-self-center">
+            <span class="d-block tx-center">@Model.playerName</span>
+            <span class="d-block tx-center">City: @Model.city</span>
+            <span class="d-block tx-center">Pokemons: @Model.Pokemons</span>
+        </div>
+        <div class="tx-center padding-2">
+            <button class="btn-pkmnTrd btn-rpt">Repeated</button>
+            <button class="btn-pkmnTrd btn-all-pkmns hide">All Pokemons</button>
+        </div>
+    </div>
+    <div class="width-80">
+        <div class="grid-g1">
+            <div class="min-h-8vh">
+                <div class="just-center">
+
+                    <div id="cards" class="section-cards">
+
+                    </div>
+                    <div class="empty-msg width-100 card cont-opacity hide">
+                        <span class="ml-1 just-center padding-2">Empty</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pages just-center hide">
+                <div>
+                    <button onclick="printButtons(0)">Back</button>
+                </div>
+                <div id="buttons">
+                    <button>0</button>
+                </div>
+                <div>
+                    <button onclick="printButtons(1)">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    FriendPokemons = []
+</script>
+@foreach (var item in ViewBag.pokemonList)
+{
+    <script>
+    FriendPokemons.push(parseInt(@item))
+    </script>
+}

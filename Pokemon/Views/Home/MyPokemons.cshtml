@@ -1,0 +1,39 @@
+﻿@*@model IEnumerable<Pokemon.Models.PokemonsDetail>*@
+
+
+<div class="pview div-cont relative">
+    <section class="grid-g1">
+        <div class="min-h-8vh">
+            <div class="just-center">
+                <div class="empty-msg">
+                    <span class="ml-1 width-100 just-center">Empty</span>
+                </div>
+                <div id="cards" class="section-cards">
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="pages just-center hide">
+            <div>
+                <button onclick="printButtons(0)">Back</button>
+            </div>
+            <div id="buttons">
+                <button>0</button>
+            </div>
+            <div>
+                <button onclick="printButtons(1)">Next</button>
+            </div>
+        </div>
+        
+    </section>
+</div>
+
+@foreach (var x in Model)
+{
+    <script>
+        MyPokemons.push(parseInt(@x.pokemonID))
+    </script>
+}
+

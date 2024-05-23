@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pokemonsModelStoreContainer" CdmEntityContainer="Context">
+    <EntitySetMapping Name="PokemonsDetails">
+      <EntityTypeMapping TypeName="pokemonsModel.PokemonsDetail">
+        <MappingFragment StoreEntitySet="PokemonsDetails">
+          <ScalarProperty Name="pokemonDetail_ID" ColumnName="pokemonDetail_ID" />
+          <ScalarProperty Name="pokemonID" ColumnName="pokemonID" />
+          <ScalarProperty Name="playerID" ColumnName="playerID" />
+          <ScalarProperty Name="entryDate" ColumnName="entryDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="pokemonsModel.Profile">
+        <MappingFragment StoreEntitySet="Profiles">
+          <ScalarProperty Name="profileID" ColumnName="profileID" />
+          <ScalarProperty Name="profileName" ColumnName="profileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trade_pokemon">
+      <EntityTypeMapping TypeName="pokemonsModel.Trade_pokemon">
+        <MappingFragment StoreEntitySet="Trade_pokemon">
+          <ScalarProperty Name="tradeID" ColumnName="tradeID" />
+          <ScalarProperty Name="requestSentTo" ColumnName="requestSentTo" />
+          <ScalarProperty Name="trade_PokemonID" ColumnName="trade_PokemonID" />
+          <ScalarProperty Name="request_by" ColumnName="request_by" />
+          <ScalarProperty Name="trade_by_PokemonID" ColumnName="trade_by_PokemonID" />
+          <ScalarProperty Name="trade_status" ColumnName="trade_status" />
+          <ScalarProperty Name="dateRequest" ColumnName="dateRequest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="friends">
+      <EntityTypeMapping TypeName="pokemonsModel.friends">
+        <MappingFragment StoreEntitySet="friends">
+          <ScalarProperty Name="updated" ColumnName="updated" />
+          <ScalarProperty Name="friendStatus" ColumnName="friendStatus" />
+          <ScalarProperty Name="player2_id" ColumnName="player2_id" />
+          <ScalarProperty Name="player1_id" ColumnName="player1_id" />
+          <ScalarProperty Name="friendEntryId" ColumnName="friendEntryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="pokemonsModel.Players">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="avatar" ColumnName="avatar" />
+          <ScalarProperty Name="profileID" ColumnName="profileID" />
+          <ScalarProperty Name="points" ColumnName="points" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="playerName" ColumnName="playerName" />
+          <ScalarProperty Name="playerID" ColumnName="playerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

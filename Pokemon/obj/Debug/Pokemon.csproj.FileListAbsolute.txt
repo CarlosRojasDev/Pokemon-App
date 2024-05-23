@@ -1,0 +1,264 @@
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Pokemon.dll.config
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Pokemon.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Pokemon.pdb
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csc.exe
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csc.exe.config
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csc.rsp
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csi.exe
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csi.exe.config
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\csi.rsp
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.AppContext.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Console.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Net.Http.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Net.Sockets.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.ValueTuple.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\vbc.exe
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\vbc.exe.config
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\vbc.rsp
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Antlr3.Runtime.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Newtonsoft.Json.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Helpers.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Mvc.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Optimization.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Razor.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\WebGrease.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Helpers.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Mvc.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Optimization.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.Razor.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Newtonsoft.Json.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Antlr3.Runtime.pdb
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\emose008\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\emose008\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CopyComplete
+C:\Users\emose008\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\EntityFramework.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\EntityFramework.SqlServer.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\EntityFramework.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\EntityFramework.SqlServer.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Pokemon.dll.config
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Pokemon.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Pokemon.pdb
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.exe
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.exe.config
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.rsp
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.exe
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.exe.config
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.rsp
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.AppContext.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Console.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Net.Http.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Net.Sockets.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.ValueTuple.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.exe
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.exe.config
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.rsp
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Antlr3.Runtime.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\EntityFramework.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\EntityFramework.SqlServer.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Newtonsoft.Json.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Helpers.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Mvc.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Optimization.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Razor.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\WebGrease.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\EntityFramework.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\EntityFramework.SqlServer.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Helpers.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Mvc.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Optimization.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.Razor.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Newtonsoft.Json.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Antlr3.Runtime.pdb
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CopyComplete
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.dll
+C:\Users\emose008\Downloads\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Pokemon.dll.config
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Pokemon.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Pokemon.pdb
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.exe
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.exe.config
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csc.rsp
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.exe
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.exe.config
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\csi.rsp
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.AppContext.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Console.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Net.Http.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Net.Sockets.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.ValueTuple.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.exe
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.exe.config
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\vbc.rsp
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Antlr3.Runtime.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\EntityFramework.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\EntityFramework.SqlServer.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Newtonsoft.Json.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Helpers.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Mvc.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Optimization.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Razor.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\WebGrease.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\EntityFramework.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\EntityFramework.SqlServer.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Helpers.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Mvc.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Optimization.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.Razor.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Newtonsoft.Json.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Antlr3.Runtime.pdb
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CopyComplete
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.dll
+C:\Users\emose008\Downloads\Pokemon 1\Pokemon\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Newtonsoft.Json.Bson.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Buffers.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Memory.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Net.Http.Formatting.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Numerics.Vectors.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\Newtonsoft.Json.Bson.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Buffers.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Memory.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Net.Http.Formatting.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Numerics.Vectors.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\emose008\source\repos\Pokemon\Pokemon\bin\System.Threading.Tasks.Extensions.xml

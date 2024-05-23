@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "NewPokemon";
+}
+<style>
+    body {
+        background-image: url(https://www.mkgifs.com/wp-content/uploads/2022/06/pokemon-2.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        background-color: #12120bbf;
+    }    
+</style>
+
+<div id="container-newPokemon">
+    
+</div>
+<div class="width-100 absolute bottom-10 flex-direction-column align-center">
+    <p>Last pokemons: <span id="last-pokemon">@ViewBag.lastPokemon</span></p>
+    <button id="getPokemon" class="pokeBall"></button>
+    <h5 class="">Click here</h5>
+</div>

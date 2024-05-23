@@ -1,0 +1,42 @@
+﻿<style>
+    body {
+        background-color: #111111d4;
+        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dc87208d-ffcf-4d0a-b3a6-e16c0e641819/dce4rqj-f82a4858-c7c3-404f-82e9-229be614cff2.png/v1/fill/w_1192,h_670,q_70,strp/legendary_pokemon_wallpaper__1__2__3_and_5_gen___by_jocinik_dce4rqj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvZGM4NzIwOGQtZmZjZi00ZDBhLWIzYTYtZTE2YzBlNjQxODE5XC9kY2U0cnFqLWY4MmE0ODU4LWM3YzMtNDA0Zi04MmU5LTIyOWJlNjE0Y2ZmMi5wbmciLCJ3aWR0aCI6Ijw9MTM2NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.f7337yFKT5E5sg-hdHgTObpA5WAWwnavMAHJMIuvmg8");
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed
+    }
+</style>
+<div class="width-100 just-center top-0">
+    <div class="div-cont just-center heigth-100 items-center">
+        <div class="relative wlcm">
+            <h2 class="just-center items-center">Welcome to <img src="https://i.pinimg.com/originals/34/c1/e5/34c1e5d371d64a581b1902ec5c4509f4.png" alt="Pokemon Logo Png" />  App</h2>
+            <div class="hide" id="required" style="position: absolute; width: 100%; margin-top: -20px;"></div>
+            <div id="Account_form" class="just-center flex-direction-column">
+                
+                @{
+                    Html.RenderAction("Login", "Account");
+                }
+            </div>
+            <span id="message"></span>
+            <div class="registered">
+                <span id="span_registered">Don't have an account?</span>
+                <button id="mybutton" class="log_regis">Register</button>
+            </div>            
+
+        </div>
+    </div>
+</div>
+<div id="mod-login">
+    
+</div>
+<div id="characters" class="viewport hide">
+    <div class="width-80">
+        @for (int i = 1; i < 100; i++)
+        {
+            string source = "https://rickandmortyapi.com/api/character/avatar/" + i + ".jpeg";
+            <img class="avatar" data-id="@i" src=@source alt="Alternate Text" />
+        }
+    </div>
+</div>

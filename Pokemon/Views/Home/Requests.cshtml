@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Pokemon.Models.Trade_pokemon>
+@using Pokemon.Models
+@{
+    ViewBag.Title = "Requests";
+}
+
+
+<div>
+    <div class="tab-body cont-opacity">
+        <div id="playersType">
+            @if (Model.Count() != 0)
+            {
+                foreach (var item in Model)
+                {
+                    <div class="playerCard">
+                        @if (item.Players1.playerID != ViewBag.userID)
+                        {
+                            <p class="ml-1">
+                                <span class="player-name">@item.Players1.playerName</span> wants to trade a/an
+                                <span class="pokemon-id">@item.trade_PokemonID</span> by your
+                                <span class="pokemon-id">@item.trade_by_PokemonID</span>
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="ml-1">
+                                You sent a request to
+                                <span class="player-name">@item.Players.playerName</span> to trade a/an
+                                <span class="pokemon-id">@item.trade_PokemonID</span> for your
+                                <span class="pokemon-id">@item.trade_by_PokemonID</span>
+                            </p>
+                        }
+
+                        <div class="fr-btns">
+                            @if (item.Players1.playerID != ViewBag.userID)
+                            {
+                                <button class="btn-trade-action accept" data-friend="@item.tradeID" data-trade="@item.tradeID">
+                                    Accept
+                                </button>
+                            }
+                            <button class="btn-trade-action del-trade" data-friend="@item.tradeID" data-trade="@item.tradeID">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="padding-1">
+                    <span class="ml-1 width-100 just-center">Empty</span>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<script>
+    pokemons = document.querySelectorAll(".pokemon-id")
+    pokemons.forEach(pokemon => {
+        let pokemonID = $(pokemon).html()
+        const getName = async () => {
+            let pk = await getPokemon(pokemonID)
+            $(pokemon).html(pk.name)
+        }
+        getName()
+    })
+    function getPokemon(id) {
+        let poke = DataPokemon.find(x => x.id == id)
+        return poke
+    }
+</script>
+

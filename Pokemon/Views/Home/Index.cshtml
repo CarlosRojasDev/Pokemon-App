@@ -1,0 +1,99 @@
+﻿@model Pokemon.Models.Players
+<script>
+    let MyPokemons = []
+</script>
+<header class="width-100">
+    <div class="padding-1 z-10">
+        <div>
+            <span>@Model.playerName - Points: </span>
+            <span id="playerPoints"> @Model.points</span>
+            <span id="myPlayerID" class="hide">@Model.playerID</span>
+            @if (Model.profileID == 1)
+            {
+                <button id="AdminPoints" class="btn-view" style="color: rgb(112, 112, 112);
+            background-color:transparent">
+                    Admin
+                </button>
+            }
+        </div>
+        <div class="absolute">
+            <p>Weather @Model.country, @Model.city: <span id="city"></span></p>
+        </div>
+    </div>
+    
+    <div class="absolute width-100">
+        <h2 class="tx-center">Pokemons</h2>
+    </div>
+    <div class="btns-header just-center visible z-20">        
+        <ul style="margin:0">
+            <li class="li-close just-right">
+                <button class="tx-right menu-sh btn-x">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                    </svg>
+                </button>
+            </li>
+            <li id="li-types" class="relative">
+                <div class="show-types menu-sh">
+                    <button class="menu-sh">Types</button>
+                    <ul id="PokemonTypes" class="types-list absolute">
+                        <li>
+                            <button class="btn-type">All</button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <button id="AllPokemons" type="button" class="btn-view menu-sh" style="color:white">Home</button>
+            </li>
+            <li>
+                <button id="players" class="btn-view menu-sh">Players</button>
+            </li>
+            <li>
+                <button id="MyPokemons" class="btn-view menu-sh">My Pokemons</button>
+            </li>
+            <li>
+                <button id="newPokemon" class="btn-view menu-sh">New Pokemon</button>
+            </li>
+            <li>
+                <button id="requests" class="btn-view menu-sh">Requests</button>
+            </li>
+
+            <li>
+                @using (Html.BeginForm("SingOut", "Account"))
+                {
+                    <button class="btn-logOut" type="submit">Log out</button>
+                }
+            </li>
+        </ul>
+
+    </div>
+    <button class="menu menu-sh btn-logOut hide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
+    </button>
+</header>
+
+<main class="width-100 just-center min-h-6" id="p-view">
+    
+    @{ Html.RenderAction("AllPokemons", "Home");}
+
+</main>
+<div id="alert" class="viewport hide">    
+        
+</div>
+
+<div class="viewport loading">    
+    <div>
+        <div class="gif"></div>
+        <h5 class="just-center">Loading...</h5>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        validateHome()
+        refresh()
+    </script>
+}

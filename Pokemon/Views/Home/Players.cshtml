@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Pokemon.Models.DataPlayers>
+
+<div class="pview div-cont relative">
+    <section id="vw-plyrs">
+        <div class="tabs">
+            <div class="tab-header">
+                <ul class="just-left">
+                    <li><input type="checkbox" checked class="hide" /><button class="btn-tab cont-opacity" data-type="1" style="border-bottom-color:transparent">Players</button></li>
+                    <li><input type="checkbox" class="hide" /><button class="btn-tab cont-opacity" data-type="2">My Friends</button></li>
+                    <li><input type="checkbox" class="hide" /><button class="btn-tab cont-opacity" data-type="3">Friends requests</button></li>
+                </ul>
+            </div>
+            <div class="tab-body cont-opacity">
+                <div id="playersType">
+                    @if (Model.Count() != 0)
+                    {
+                        foreach (var item in Model)
+                        {
+                            var tx = item.FriendStatus == 1 ? "Pending" : "Follow";
+
+
+                            <div class="playerCard">
+
+                                <img src="@item.Image" />
+                                <span class="ml-1 width-40">@item.playerName</span>
+                                <div>
+                                    <span class="d-block">@item.city</span>
+                                    <span class="d-block">Pokemons: @item.Pokemons</span>
+                                </div>
+                                <div class="fr-btns">
+                                    <button class="btn-follow @tx" data-friend="@item.playerID" data-type="@item.FriendStatus">
+                                        <span class="text1">@tx</span>
+                                        <span class="text2 hide">Delete</span>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="padding-1">
+                            <span class="ml-1 width-100 just-center">Empty</span>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="dataFriend" class="width-100">
+
+        </div>
+    </section>
+</div>
+<section>
+    <div id="mod-trade" class="modal tx-center bg-dark hide">
+        <div class="modal-message">
+
+            <h3>Submit Pokémon Trade Request</h3>
+            <div class="relative">
+                <div class="size-100 just-center align-center gap-20">
+                    <div id="container-trade1"></div>
+                    <span>By</span>
+                    <div id="container-trade2"></div>
+                </div>
+                <h3>Do you want continue?</h3>
+                
+                <button class="btn-trade mod-hide" data-close="mod-trade" data-type="0">Cancel</button>
+                <button class="btn-trade mod-hide" data-close="mod-trade" data-type="1">Continue</button>
+                
+            </div>
+        </div>
+    </div>
+</section>

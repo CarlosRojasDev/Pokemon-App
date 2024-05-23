@@ -1,0 +1,25 @@
+﻿
+@using (Html.BeginForm("CreateUser", "Account", FormMethod.Post, new { @Class = "account_form flex-direction-column", @id = "register_form" }))
+{
+    <div class="avatarImage just-center" width="5" height="5"></div>
+    <select name="country" required>
+        <option value="">.::Select::.</option>
+        <option value="CO">Colombia</option>
+        <option value="VE">Venezuela</option>
+        <option value="ES">España</option>
+        <option value="US">USA</option>
+    </select>
+
+    <input type="text" name="city" placeholder="City" autocomplete="off" required />    
+
+    <input id="checkName" type="text" name="playerName" placeholder="Player name" autocomplete="off" required />
+    
+    <input type="password" name="password" placeholder="Password" required />
+
+    <div>
+        <input id="avatar" type="number" name="avatar" placeholder="avatar" required readonly />
+        <button class="showAvatares" type="button">Select</button>
+    </div>
+
+    <button class="btn-logReg" type="submit" data-modal="mod-login">Register</button>
+}

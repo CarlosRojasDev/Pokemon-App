@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pokemonsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="friends">
+    <Key>
+      <PropertyRef Name="friendEntryId" />
+    </Key>
+    <Property Name="friendEntryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="player1_id" Type="int" Nullable="false" />
+    <Property Name="player2_id" Type="int" Nullable="false" />
+    <Property Name="friendStatus" Type="int" />
+    <Property Name="updated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="playerID" />
+    </Key>
+    <Property Name="playerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="playerName" Type="varchar" MaxLength="50" />
+    <Property Name="city" Type="varchar" MaxLength="50" />
+    <Property Name="points" Type="int" />
+    <Property Name="profileID" Type="int" />
+    <Property Name="avatar" Type="int" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+    <Property Name="country" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="PokemonsDetails">
+    <Key>
+      <PropertyRef Name="pokemonDetail_ID" />
+    </Key>
+    <Property Name="pokemonDetail_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pokemonID" Type="int" />
+    <Property Name="playerID" Type="int" />
+    <Property Name="entryDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="profileID" />
+    </Key>
+    <Property Name="profileID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="profileName" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Trade_pokemon">
+    <Key>
+      <PropertyRef Name="tradeID" />
+    </Key>
+    <Property Name="tradeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="requestSentTo" Type="int" />
+    <Property Name="trade_PokemonID" Type="int" />
+    <Property Name="request_by" Type="int" />
+    <Property Name="trade_by_PokemonID" Type="int" />
+    <Property Name="trade_status" Type="bit" />
+    <Property Name="dateRequest" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_friends_Players">
+    <End Role="Players" Type="Self.Players" Multiplicity="1" />
+    <End Role="friends" Type="Self.friends" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Players">
+        <PropertyRef Name="playerID" />
+      </Principal>
+      <Dependent Role="friends">
+        <PropertyRef Name="player1_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_friends_Players1">
+    <End Role="Players" Type="Self.Players" Multiplicity="1" />
+    <End Role="friends" Type="Self.friends" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Players">
+        <PropertyRef Name="playerID" />
+      </Principal>
+      <Dependent Role="friends">
+        <PropertyRef Name="player2_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Players_Profiles">
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="0..1" />
+    <End Role="Players" Type="Self.Players" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profiles">
+        <PropertyRef Name="profileID" />
+      </Principal>
+      <Dependent Role="Players">
+        <PropertyRef Name="profileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PokemonsDetails_Players">
+    <End Role="Players" Type="Self.Players" Multiplicity="0..1" />
+    <End Role="PokemonsDetails" Type="Self.PokemonsDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Players">
+        <PropertyRef Name="playerID" />
+      </Principal>
+      <Dependent Role="PokemonsDetails">
+        <PropertyRef Name="playerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Trade_pokemon_Players">
+    <End Role="Players" Type="Self.Players" Multiplicity="0..1" />
+    <End Role="Trade_pokemon" Type="Self.Trade_pokemon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Players">
+        <PropertyRef Name="playerID" />
+      </Principal>
+      <Dependent Role="Trade_pokemon">
+        <PropertyRef Name="requestSentTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Trade_pokemon_Players1">
+    <End Role="Players" Type="Self.Players" Multiplicity="0..1" />
+    <End Role="Trade_pokemon" Type="Self.Trade_pokemon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Players">
+        <PropertyRef Name="playerID" />
+      </Principal>
+      <Dependent Role="Trade_pokemon">
+        <PropertyRef Name="request_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pokemonsModelStoreContainer">
+    <EntitySet Name="friends" EntityType="Self.friends" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Players" EntityType="Self.Players" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PokemonsDetails" EntityType="Self.PokemonsDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profiles" EntityType="Self.Profiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Trade_pokemon" EntityType="Self.Trade_pokemon" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_friends_Players" Association="Self.FK_friends_Players">
+      <End Role="Players" EntitySet="Players" />
+      <End Role="friends" EntitySet="friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_friends_Players1" Association="Self.FK_friends_Players1">
+      <End Role="Players" EntitySet="Players" />
+      <End Role="friends" EntitySet="friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Players_Profiles" Association="Self.FK_Players_Profiles">
+      <End Role="Profiles" EntitySet="Profiles" />
+      <End Role="Players" EntitySet="Players" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PokemonsDetails_Players" Association="Self.FK_PokemonsDetails_Players">
+      <End Role="Players" EntitySet="Players" />
+      <End Role="PokemonsDetails" EntitySet="PokemonsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Trade_pokemon_Players" Association="Self.FK_Trade_pokemon_Players">
+      <End Role="Players" EntitySet="Players" />
+      <End Role="Trade_pokemon" EntitySet="Trade_pokemon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Trade_pokemon_Players1" Association="Self.FK_Trade_pokemon_Players1">
+      <End Role="Players" EntitySet="Players" />
+      <End Role="Trade_pokemon" EntitySet="Trade_pokemon" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,36 @@
+﻿<div class="pview div-cont relative">
+    <section class="grid-g1">
+        <div class="min-h-8vh">
+            <div class="just-center">
+
+                <div id="cards" class="section-cards">
+                    
+
+                </div>
+
+            </div>
+        </div>
+        <div class="pages just-center hide">
+            <div>
+                <button onclick="printButtons(0)">Back</button>
+            </div>
+            <div id="buttons">
+                <button>0</button>
+            </div>
+            <div>
+                <button onclick="printButtons(1)">Next</button>
+            </div>
+        </div>
+    </section>
+</div>
+<div>
+    
+</div>
+<div>
+    @foreach (var x in @ViewBag.myPokemons)
+    {
+        <script>
+            MyPokemons.push(parseInt(@x))
+        </script>
+    }
+</div>
